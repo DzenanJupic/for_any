@@ -1,0 +1,18 @@
+[package]
+name = "for_any"
+version = "0.0.1"
+authors = ["Dzenan Jupic <56133904+DzenanJupic@users.noreply.github.com>"]
+keywords = []
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+darling = "0.13.0"
+quote = "1.0.9"
+proc-macro2 = "1.0.27"
+syn = { version = "1.0.73", features = ["full"] }
+
+[dev-dependencies]
+trybuild = "1.0.42"
